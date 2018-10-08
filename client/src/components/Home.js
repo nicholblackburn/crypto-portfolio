@@ -1,5 +1,5 @@
 import React from 'react';
-import CoinForm from './CoinFrom';
+import CoinForm from './CoinForm';
 import CoinList from './CoinList';
 
 const Home = () => (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form } from 'semantic-ui-react'
 import { connect } from 'react-redux'
-import {addCoin}from '../reducers/coin'
+import {addCoin}from '../reducers/coins'
 
 class CoinForm extends React.Component {
   state = { coin: '' }
