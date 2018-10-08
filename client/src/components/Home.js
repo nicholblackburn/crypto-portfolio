@@ -1,18 +1,13 @@
-import React, { Component } from 'react';
-import { Header, Button } from 'semantic-ui-react';
-import axios from 'axios'
+import React from 'react';
+import CoinForm from './CoinFrom';
+import CoinList from './CoinList';
 
-class Home extends Component {
-  state = { coin: {} }
-
- 
-  render() {
-    return (
-     <>
-     </>
-    );
-  }
-}
+const Home = () => (
+  <>
+    <CoinForm />
+    <CoinList />
+  </>
+)
 
 
 export default Home;
